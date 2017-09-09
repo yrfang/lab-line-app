@@ -8,7 +8,7 @@ function lineAuth() {
   var URL = 'https://access.line.me/dialog/oauth/weblogin?';
   URL += 'response_type=code';
   URL += '&client_id=1534276186';
-  URL += '&redirect_uri=http://localhost:8080/index.html/#/';
+  URL += '&redirect_uri=https://yrfang.github.io/lab-line-app/board.html';
   URL += '&state=abcde';
   window.location.href = URL;
 }
