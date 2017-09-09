@@ -22,10 +22,11 @@ function sendBroad() {
   const myHeaders = {
     'Authorization': 'Token bb8b103dd3035b8e2cbc0ff342ea14e669046cf8',
     'Content-Type': 'application/json',  // send json
+    'Content-Security-Policy: upgrade-insecure-requests'
   };
 
   const request = new Request(
-    'http://backgang.herokuapp.com/bot/line/community_broadcast/',
+    'https://backgang.herokuapp.com/bot/line/community_broadcast/',
     {
       method: "POST",
       headers: myHeaders,
