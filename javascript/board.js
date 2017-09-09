@@ -46,7 +46,7 @@ function sendBroad() {
     return response;
   }).catch(function (err) {
     console.log(err);
-    submitState.innerHTML = "Please finish the form.";
+    submitState.innerHTML = "Submit error.";
     setTimeout(function(){ submitState.innerHTML=""; }, 2000);
   });
 }
