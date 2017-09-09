@@ -8,7 +8,7 @@
   </head>
   <body>
     <h2>Welcome to The Board</h2>
-    <form class="container">
+    <form id="formContainer">
       <p>Choose your community: </p>
       <select id="community_select">
         <option value="2">2</option>
@@ -20,8 +20,10 @@
       <p>Your text: </p>
       <textarea id="text"></textarea>
       <br/>
-      <input id="submitBtn" type="button" name="submit" value="Submit">
+      <input id="submitBtn" type="submit" value="Submit">
+      <p id="submitState"></p>
     </form>
-
+    
+    <script src="javascript/board.js"></script>
   </body>
 </html>

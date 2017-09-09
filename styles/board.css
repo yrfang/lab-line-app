@@ -4,7 +4,7 @@ html, body {
   text-align: center;
 }
 
-.container {
+#formContainer {
   padding-left: 80px;
   padding-right: 80px;
   margin-left: auto;
@@ -22,6 +22,7 @@ p {
   width: 80px;
   height: 20px;
   font-size: 14px;
+  border: solid 1px #333;
 }
 
 textarea {
@@ -44,4 +45,10 @@ textarea {
   font-size: 14px;
   border: none;
   cursor: pointer;
+}
+
+#submitState {
+  color: #f28a3f;
+  font-size: 24px;
+  font-weight: 900;
 }
