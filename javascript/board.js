@@ -38,7 +38,7 @@ function sendBroad() {
 
   fetch(request).then(response => {
     submitState.innerHTML = "Submit successfully.";
-    setTimeout(function(){ submitState.innerHTML=""; }, 2000);
+    setTimeout(function(){ submitState.innerHTML=""; }, 3000);
 
     //ok 200~299
     if (!response.ok) {
@@ -48,6 +48,6 @@ function sendBroad() {
   }).catch(function (err) {
     console.log(err);
     submitState.innerHTML = "Submit error.";
-    setTimeout(function(){ submitState.innerHTML=""; }, 2000);
+    setTimeout(function(){ submitState.innerHTML=""; }, 3000);
   });
 }
