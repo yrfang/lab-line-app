@@ -1,0 +1,13 @@
+html, body {
+  padding: 20px;
+  text-align: center;
+}
+
+#btnLogin {
+  color: #fff;
+  background-color: #2284d5;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
