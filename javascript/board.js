@@ -20,7 +20,7 @@ function sendBroad() {
   console.log(payload);
 
   const myHeaders = {
-    'Authorization': 'Token bb8b103dd3035b8e2cbc0ff342ea14e669046cf8',
+    'Authorization': 'Token ',
     'Content-Type': 'application/json',  // send json
     'Content-Security-Policy': 'upgrade-insecure-requests',
   };
